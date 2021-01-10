@@ -1,4 +1,4 @@
-Welcome to tpRigToolkit-tools-{{cookiecutter.tool_name}} documentation!
+Welcome to tpDcc-tools-{{cookiecutter.tool_name}} documentation!
 =========================================================================================
 
 .. toctree::

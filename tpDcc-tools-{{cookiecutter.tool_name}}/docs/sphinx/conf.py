@@ -22,7 +22,7 @@ sys.path.insert(0, os.path.abspath('./../../'))
 
 # -- Project information -----------------------------------------------------
 
-project = u'tpRigToolkit-tools-{{cookiecutter.tool_name}}'
+project = u'tpDcc-tools-{{cookiecutter.tool_name}}'
 copyright = u'{{cookiecutter.year}}, {{cookiecutter.author}}'
 author = u'{{cookiecutter.author}}'
 
@@ -111,7 +111,7 @@ html_theme = "sphinx_rtd_theme"
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'tpRigToolkit-tools-doc'
+htmlhelp_basename = 'tpDcc-tools-doc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -138,7 +138,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'tpRigToolkit-tools-{{cookiecutter.tool_name}}.tex', u'tpRigToolkit-tools-{{cookiecutter.tool_name}} Documentation',
+    (master_doc, 'tpDcc-tools-{{cookiecutter.tool_name}}.tex', u'tpDcc-tools-{{cookiecutter.tool_name}} Documentation',
      u'{author}', 'manual'),
 ]
 
@@ -148,7 +148,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'tpRigToolkit-tools-{{cookiecutter.tool_name}}', u'tpRigToolkit-tools-{{cookiecutter.tool_name}} Documentation',
+    (master_doc, 'tpDcc-tools-{{cookiecutter.tool_name}}', u'tpDcc-tools-{{cookiecutter.tool_name}} Documentation',
      [author], 1)
 ]
 
@@ -159,8 +159,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'tpRigToolkit-tools-{{cookiecutter.tool_name}}', u'tpRigToolkit-tools-{{cookiecutter.tool_name}} Documentation',
-     author, 'tpRigToolkit-tools-{{cookiecutter.tool_name}}', 'One line description of project.',
+    (master_doc, 'tpDcc-tools-{{cookiecutter.tool_name}}', u'tpDcc-tools-{{cookiecutter.tool_name}} Documentation',
+     author, 'tpDcc-tools-{{cookiecutter.tool_name}}', 'One line description of project.',
      'Miscellaneous'),
 ]
 
